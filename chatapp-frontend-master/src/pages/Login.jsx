@@ -102,6 +102,7 @@ const Login = () => {
         id: toastId,
       });
     } catch (error) {
+      console.log(formData);
       toast.error(error?.response?.data?.message || "Something Went Wrong", {
         id: toastId,
       });
