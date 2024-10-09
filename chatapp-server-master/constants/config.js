@@ -2,7 +2,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",
     "http://localhost:4173",
-    process.env.CLIENT_URL,
+    "https://se-project-we4m.vercel.app", // Update with your frontend URL
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
