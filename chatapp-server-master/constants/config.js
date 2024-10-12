@@ -1,9 +1,9 @@
 const corsOptions = {
   origin: [
-    "https://se-project-omega.vercel.app/login", // Update with your frontend URL
+    "https://se-project-omega.vercel.app",  // Just the origin without the path
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true,
+  credentials: true,  // Allows cookies to be included
 };
 
 const CHATTU_TOKEN = "chattu-token";
